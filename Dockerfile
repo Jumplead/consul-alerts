@@ -1,8 +1,8 @@
-FROM golang:alpine as build
+FROM golang:1.10 as build
 
 WORKDIR /go/src/github.com/AcalephStorage/consul-alerts
 
-RUN go get -v github.com/hashicorp/consul
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go get -v github.com/hashicorp/consul
 
 COPY . .
 
