@@ -1,0 +1,43 @@
+[[constraint]]
+  name = "github.com/Sirupsen/logrus"
+  version = "1.0.5"
+
+[[constraint]]
+  name = "github.com/aws/aws-sdk-go"
+  version = "1.14.13"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/darkcrux/gopherduty"
+
+[[constraint]]
+  name = "github.com/docopt/docopt-go"
+  version = "~0.6.2"
+
+[[constraint]]
+  name = "github.com/hashicorp/consul"
+  version = "~0.5.2"
+
+[[constraint]]
+  name = "github.com/imdario/mergo"
+  version = "0.3.5"
+
+[[constraint]]
+  name = "github.com/influxdb/influxdb"
+  version = "~0.8.5"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/mitchellh/hashstructure"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/opsgenie/opsgenie-go-sdk"
+
+[[constraint]]
+  name = "github.com/tbruyelle/hipchat-go"
+  revision = "55738d370904e36b63c09c27a60ee92685d4e915"
+
+[prune]
+  go-tests = true
+  unused-packages = true
